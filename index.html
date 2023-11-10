@@ -62,11 +62,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BuildCocoOpenSim.loader.js";
+      var loaderUrl = buildUrl + "/BuildCoCoOpenSimV2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/BuildCocoOpenSim.data",
-        frameworkUrl: buildUrl + "/BuildCocoOpenSim.framework.js",
-        codeUrl: buildUrl + "/BuildCocoOpenSim.wasm",
+        dataUrl: buildUrl + "/BuildCoCoOpenSimV2.data",
+        frameworkUrl: buildUrl + "/BuildCoCoOpenSimV2.framework.js",
+        codeUrl: buildUrl + "/BuildCoCoOpenSimV2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "VMASC",
         productName: "CoCo_CircuitSim_Open",
@@ -103,7 +103,7 @@
         canvas.style.height = "492px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/BuildCocoOpenSim.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/BuildCoCoOpenSimV2.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
